@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 6%;
+}
+
+.features{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.features > button{
+    margin-right: 5px;
+}
