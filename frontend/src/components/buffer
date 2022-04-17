@@ -1,0 +1,512 @@
+<main id="primary" class="site-main">
+    <div class="ingredients-list">
+        <article id="post-3194" class="post-3194 page type-page status-publish hentry">
+            <!--<header class="entry-header"><h1 class="entry-title">Ingredient List</h1></header> disable page headers -->
+            <div class="entry-content">
+                <h1 class="has-text-align-center">Ingredient list</h1>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-thumbnail"><img width="150" height="150"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1208846803-150x150.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-184"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1208846803-150x150.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1208846803-100x100.jpg 100w"
+                                    sizes="(max-width: 150px) 100vw, 150px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC OATS</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC ALMONDS</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-thumbnail"><img loading="lazy" width="150" height="150"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1046042926-150x150.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-270"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1046042926-150x150.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1046042926-100x100.jpg 100w"
+                                    sizes="(max-width: 150px) 100vw, 150px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-thumbnail"><img loading="lazy" width="150" height="150"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1155861256-150x150.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-188"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1155861256-150x150.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1155861256-100x100.jpg 100w"
+                                    sizes="(max-width: 150px) 100vw, 150px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CHIA SEEDS</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC RICE</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="617"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-1024x617.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-191"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-1024x617.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-150x90.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-600x361.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-400x241.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-768x462.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-1536x925.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701-300x181.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1166243701.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="600" height="900"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/10/chicory.png"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-354"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/10/chicory.png 600w, https://heal4meal.com/wp-content/uploads/2019/10/chicory-150x225.png 150w, https://heal4meal.com/wp-content/uploads/2019/10/chicory-300x450.png 300w, https://heal4meal.com/wp-content/uploads/2019/10/chicory-267x400.png 267w, https://heal4meal.com/wp-content/uploads/2019/10/chicory-200x300.png 200w"
+                                    sizes="(max-width: 600px) 100vw, 600px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CHICORY</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC COCONUT</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="851"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-1024x851.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-271"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-1024x851.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-150x125.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-600x498.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-400x332.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-768x638.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-1536x1276.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871-300x249.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1112779871.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-217"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_136320611.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC BANANA</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC OLIVE OIL</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="643"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-1024x643.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-207"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-1024x643.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-150x94.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-600x377.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-400x251.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-768x482.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-1536x964.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426-300x188.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_107291426.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <figure class="wp-block-image size-large"><img loading="lazy" width="625" height="420"
+                                src="https://heal4meal.com/wp-content/uploads/2019/07/img26.jpg"
+                                alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-150"
+                                srcset="https://heal4meal.com/wp-content/uploads/2019/07/img26.jpg 625w, https://heal4meal.com/wp-content/uploads/2019/07/img26-150x101.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/img26-600x403.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/img26-400x269.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/img26-300x202.jpg 300w"
+                                sizes="(max-width: 625px) 100vw, 625px"></figure>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC VANILLA</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC GINGER</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="625"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-1024x625.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-221"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-1024x625.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-scaled-150x92.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-scaled-600x366.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-400x244.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-768x469.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-1536x937.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-2048x1250.jpg 2048w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-300x183.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_510780442-scaled.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-180"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_82049899.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC PARSLEY</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CINNAMON</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="683"
+                                src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-1024x683.jpg"
+                                alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-292"
+                                srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_3110922.jpg 1920w"
+                                sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-222"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_423000034.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC TURMERIC</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC BROCCOLI</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="673"
+                                src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-1024x673.jpg"
+                                alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-194"
+                                srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-1024x673.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-150x99.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-600x394.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-400x263.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-768x505.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-1536x1010.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589-300x197.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_353662589.jpg 1920w"
+                                sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-218"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749-1536x1025.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_140931490-e1591096752749.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC BLUEBERRIES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC RASPBERRIES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="405"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-1024x405.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-279"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-1024x405.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-150x59.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-600x238.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-400x158.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-768x304.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-1536x608.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045-300x119.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1453322045.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="683"
+                                src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-1024x683.jpg"
+                                alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-293"
+                                srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1239934582.jpg 1920w"
+                                sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CELERY</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CARROT</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="939" height="1024"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-939x1024.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-268"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-939x1024.jpg 939w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-150x164.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-600x654.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-367x400.jpg 367w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-768x837.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-1409x1536.jpg 1409w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781-275x300.jpg 275w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1148821781.jpg 1761w"
+                                    sizes="(max-width: 939px) 100vw, 939px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="582"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-1024x582.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-187"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-1024x582.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-150x85.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-600x341.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-400x227.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-768x436.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-1536x873.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754-300x170.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_241428754.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC KALE</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC BLACKBERRIES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="540"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-1024x540.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-183"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-1024x540.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-150x79.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-600x316.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-400x211.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-768x405.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-1536x810.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272-300x158.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_780770272.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="748"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-1024x748.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-215"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-1024x748.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-150x110.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-600x438.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-400x292.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-768x561.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-1536x1122.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610-300x219.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_1311358610.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CAULIFLOWER</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC BEET ROOT</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="710"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-1024x710.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-205"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-1024x710.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-150x104.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-600x416.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-400x278.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-768x533.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-1536x1066.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512-300x208.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1007303512.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="731"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-1024x731.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-269"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-1024x731.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-150x107.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-600x428.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-400x286.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-768x548.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-1536x1097.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350-300x214.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_403271350.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC APPLES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC ASPARAGUS</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1008" height="1024"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-1008x1024.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-204"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-1008x1024.jpg 1008w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-150x152.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-600x610.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-394x400.jpg 394w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-768x780.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-1512x1536.jpg 1512w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922-295x300.jpg 295w, https://heal4meal.com/wp-content/uploads/2019/07/shutterstock_1076659922.jpg 1890w"
+                                    sizes="(max-width: 1008px) 100vw, 1008px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-219"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_147983495.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CHERRIES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC RED CABBAGE</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="900"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-1024x900.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-277"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-1024x900.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-150x132.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-600x528.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-400x352.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-768x675.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-1536x1350.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292-300x264.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_347764292.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="813"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-1024x813.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-264"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-1024x813.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-150x119.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-600x476.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-400x318.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-768x610.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-1536x1219.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210-300x238.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_764185210.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC BRUSSEL SPROUTS</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC STRAWBERRIES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-288"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_415686307_1.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="630"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-1024x630.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-223"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-1024x630.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-150x92.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-600x369.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-400x246.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-768x473.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-1536x946.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414-300x185.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/08/shutterstock_585419414.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC GARLIC</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC BELL PEPPER</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-265"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_58521616.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="678"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-1024x678.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-267"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-1024x678.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-150x99.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-600x398.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-400x265.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-768x509.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-1536x1018.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184-300x199.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_522912184.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC TOMATOES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC GREEN ONION</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="683" height="1024"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-683x1024.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-278"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-683x1024.jpg 683w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-150x225.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-600x900.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-267x400.jpg 267w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-768x1152.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-1024x1536.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263-200x300.jpg 200w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_307179263.jpg 1280w"
+                                    sizes="(max-width: 683px) 100vw, 683px"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="631"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-1024x631.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-276"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-1024x631.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-150x92.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-600x370.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-400x246.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-768x473.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-1536x946.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657-300x185.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1407782657.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">ORGANIC CUCUMBER</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                </div>
+                <div class="wp-block-columns">
+                    <div class="wp-block-column" style="flex-basis:25%"></div>
+                    <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
+                        <p class="has-text-align-center">PROBIOTIC CULTURES</p>
+                    </div>
+                    <div class="wp-block-column" style="flex-basis:25%">
+                        <div class="wp-block-image">
+                            <figure class="aligncenter size-large"><img loading="lazy" width="1024" height="683"
+                                    src="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-1024x683.jpg"
+                                    alt="H.E.A.L. - Holistic Eating and Living" class="wp-image-274"
+                                    srcset="https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-1024x683.jpg 1024w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-150x100.jpg 150w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-600x400.jpg 600w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-400x267.jpg 400w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-768x512.jpg 768w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-1536x1024.jpg 1536w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796-300x200.jpg 300w, https://heal4meal.com/wp-content/uploads/2019/09/shutterstock_1180491796.jpg 1920w"
+                                    sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .entry-content -->
+        </article><!-- #post-3194 -->
+    </div><!-- .ingredients-list-->
+</main>

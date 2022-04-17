@@ -2,7 +2,9 @@ import './style.css'
 
 function Body() {
     return (
-        <nav></nav>
+        <>
+            
+        </>
     );
   }
   

@@ -1,18 +1,47 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 6%;
 }
 
-.features{
+.features {
     list-style: none;
     display: inline-flex;
 
 }
 
-.features > button{
+.features>button {
     margin-right: 5px;
+}
+
+.page {
+    display: list-item;
+    align-items: center;
+    text-align: center;
+}
+
+.ing-header {
+    display: block;
+    text-align: center;
+}
+
+.ingredient-entry {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 14%;
+}
+
+.ing-image {
+    vertical-align: top;
+    margin-right: 1ch;
+}
+
+.ing-name {
+    vertical-align: top;
+    display: inline;
+    margin-right: 1%;
 }
