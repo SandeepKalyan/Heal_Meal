@@ -4,7 +4,7 @@ import logo from './logo.png'
 
 function Footer() {
     return (
-        <div>
+        <div className='footer'>
             <nav className='nav'>
                 <img src={logo} className='logo' />
                 <a width='1%'>© Copyright 2022 - All Rights Reserved</a>
