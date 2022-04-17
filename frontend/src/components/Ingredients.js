@@ -5,7 +5,7 @@ import './style.css'
 function ingredients() {
     return (
         <div class="page">
-            <h1 class="ing-header">Ingredient list</h1>
+            <h1 class="ing-header">Ingredients</h1>
             <div class="ingredient-entry">
                 <div className="ing-image">
                     <img width="150" height="150"

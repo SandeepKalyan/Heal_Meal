@@ -4,6 +4,7 @@ import './index.css';
 import App from './App'
 import Head from './components/Head'
 import Ingredients from './components/Ingredients'
+import Footer from './components/footer'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <Head />
     <Ingredients />
+    <Footer />
   </React.StrictMode>
 );
 

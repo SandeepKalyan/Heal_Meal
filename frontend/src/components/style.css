@@ -1,31 +1,47 @@
 .nav {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1px;
+    text-align: center;
+    background: #36ac51;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #36ac51;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(216, 210, 17);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(126, 150, 29);
 }
 
 .logo {
-    width: 6%;
+    width: 10%;
 }
 
 .features {
     list-style: none;
     display: inline-flex;
-
-}
-
-.features>button {
-    margin-right: 5px;
 }
 
 .page {
-    display: list-item;
-    align-items: center;
-    text-align: center;
-}
-
-.ing-header {
-    display: block;
     text-align: center;
 }
 
@@ -33,15 +49,4 @@
     display: inline-flex;
     align-items: center;
     margin-right: 14%;
-}
-
-.ing-image {
-    vertical-align: top;
-    margin-right: 1ch;
-}
-
-.ing-name {
-    vertical-align: top;
-    display: inline;
-    margin-right: 1%;
 }
