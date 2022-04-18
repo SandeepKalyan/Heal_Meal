@@ -58,13 +58,16 @@ func Login(c *fiber.Ctx) error {
 	//return User Json	
 	//return c.JSON(user)
 	
+	//claims is the new jwt token using encryption method and standard props
 	claims := jwt.NewWithClaims(jwt.SigningMethodHS256,jwt.StandardClaims{
 		Issuer: strconv.Itoa(int(user.ID)),
 		ExpiresAt: time.Now().Add(time.Hour *24).Unix(),
 	})
 
+	//Encrypt the token to a string froma given keyword
 	token, err := claims.SignedString([]byte(SecretKey))
 
+	//error handling if token is not created
 	if err != nil {
 		c.Status(fiber.StatusInternalServerError) 
 		return c.JSON(fiber.Map{
@@ -72,6 +75,7 @@ func Login(c *fiber.Ctx) error {
 		})
 	}
 
+	//create a cookie with props of the token and expiry time
 	cookie := fiber.Cookie{
 		Name: "jwt",
 		Value : token,
@@ -84,4 +88,24 @@ func Login(c *fiber.Ctx) error {
 	return c.JSON(fiber.Map{
 		"message" : "success",
 	})
+}
+
+func User(c *fiber.Ctx) error  {
+	cookie := c.Cookies("jwt")
+
+	token, err := jwt.ParseWithClaims(cookie, &jwt.StandardClaims{}, func(token *jwt.Token) (interface{}, error) {
+		return []byte(SecretKey), nil
+	}) 
+
+	if err!= nil {
+		c.Status(fiber.StatusUnauthorized) 
+		return c.JSON(fiber.Map{
+			"message" : "Unauthenticated",
+		})
+	}
+
+	claims := token.Claims
+
+	return c.JSON(claims)
+
 }
