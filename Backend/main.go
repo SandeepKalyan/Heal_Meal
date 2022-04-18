@@ -2,16 +2,13 @@ package main
 
 import (
 	"backend/database"
-	"github.com/gofiber/fiber"
+	"github.com/gofiber/fiber/v2"
 	"backend/routes"
-	"backend/controllers"
 )
 
 func main(){
 	database.Connect()
-
-	app := fiber.New()
-
+	app := fiber.New()	
 	routes.Setup(app)
+	app.Listen(":8000")
 }
-
