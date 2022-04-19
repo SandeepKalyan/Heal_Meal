@@ -103,9 +103,26 @@ func User(c *fiber.Ctx) error  {
 			"message" : "Unauthenticated",
 		})
 	}
+	//custom token only have a valid function, so need to type cast it to standardClaims (pointer) -> only the type to be casted is mentioned.
+	claims := token.Claims.(*jwt.StandardClaims)
 
-	claims := token.Claims
+	var user models.User
+	database.DB.Where("id = ?",claims.Issuer).First(&user)
 
-	return c.JSON(claims)
+	return c.JSON(user)
+}
 
+func Logout(c *fiber.Ctx) error {
+	cookie := fiber.Cookie{
+		Name: "jwt",
+		Value: "",
+		Expires: time.Now().Add(-time.Minute),
+		HTTPOnly: true,
+	}
+
+	c.Cookie(&cookie)
+	
+	return c.JSON(fiber.Map{
+		"message" : "logout successful",
+	})
 }
