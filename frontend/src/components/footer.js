@@ -5,9 +5,9 @@ import logo from './logo.png'
 function Footer() {
     return (
         <div className='footer'>
-            <nav className='nav'>
+            <nav >
                 <img src={logo} className='logo' />
-                <a width='1%'>© Copyright 2022 - All Rights Reserved</a>
+                <a width='3%'>© Copyright 2022 - All Rights Reserved</a>
             </nav>
         </div>
     )
