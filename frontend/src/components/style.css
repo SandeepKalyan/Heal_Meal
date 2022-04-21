@@ -100,54 +100,20 @@ li a:hover {
     color: antiquewhite;
 }
 
-._formFields_589fll {
-    -webkit-text-size-adjust: 100%;
-    color: #111;
-    font-family: "Avenir LT Std", sans-serif;
-    font-weight: normal;
-    letter-spacing: normal;
-    line-height: 1.5;
-    text-transform: none;
-    font-size: 1.6rem;
-    box-sizing: inherit;
-    scroll-margin-top: inherit;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 8px 0;
+.registerform {
+    margin: 5%;
 }
 
-._heading_589fll {
-    -webkit-text-size-adjust: 100%;
-    color: #111;
-    box-sizing: inherit;
-    scroll-margin-top: inherit;
-    margin: 0;
-    font-family: "Monstro", sans-serif;
-    font-weight: bold;
-    letter-spacing: normal;
-    line-height: 1.5;
-    text-transform: none;
-    font-size: 3.2436584473rem;
-    padding: 4px 0;
-    text-align: center;
+.registerlist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-auto-rows: minmax(100px, auto);
 }
 
-._standard_1y5z2g {
-    -webkit-text-size-adjust: 100%;
-    color: #111;
-    font-family: "Avenir LT Std", sans-serif;
-    font-weight: normal;
-    letter-spacing: normal;
-    line-height: 1.5;
-    text-transform: none;
-    font-size: 1.6rem;
-    box-sizing: inherit;
-    scroll-margin-top: inherit;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    width: calc(50% - 8px);
-    margin: 8px 0;
+.registerfirstname {
+    grid-column: 1 /3;
+    grid-row: auto;
+
+
 }

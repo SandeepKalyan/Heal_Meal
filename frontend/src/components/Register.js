@@ -2,9 +2,11 @@ import './style.css'
 import logo from "./logo.png"
 
 function Register() {
+
+
     return (
         <div>
-            <form >
+            <form className='registerform'>
                 <h1 >
                     Create Account
                 </h1>
