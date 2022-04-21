@@ -1,21 +1,20 @@
-.nav {
+.navstart {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    height: 80px;
     text-align: center;
-    background: #36ac51;
+    background: #08812c;
     font-size: 40px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .2);
 }
-
-
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #36ac51;
+    background-color: #08812c;
 }
 
 li {
@@ -36,7 +35,7 @@ li a:hover {
 }
 
 .logo {
-    width: 10%;
+    width: 7%;
 }
 
 .features {
@@ -61,7 +60,94 @@ li a:hover {
 }
 
 .footer {
-    margin: 0%;
+    margin-top: 10%;
     padding: 0%;
 
+}
+
+
+
+.form-signin {
+    width: 90%;
+    max-width: 330px;
+    padding: 0px;
+    margin: auto;
+}
+
+.mb-4 {
+    margin: 20%;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.register-button {
+    margin-top: 10%;
+    background-color: #0db9a2;
+    color: antiquewhite;
+}
+
+._formFields_589fll {
+    -webkit-text-size-adjust: 100%;
+    color: #111;
+    font-family: "Avenir LT Std", sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.5;
+    text-transform: none;
+    font-size: 1.6rem;
+    box-sizing: inherit;
+    scroll-margin-top: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+._heading_589fll {
+    -webkit-text-size-adjust: 100%;
+    color: #111;
+    box-sizing: inherit;
+    scroll-margin-top: inherit;
+    margin: 0;
+    font-family: "Monstro", sans-serif;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 1.5;
+    text-transform: none;
+    font-size: 3.2436584473rem;
+    padding: 4px 0;
+    text-align: center;
+}
+
+._standard_1y5z2g {
+    -webkit-text-size-adjust: 100%;
+    color: #111;
+    font-family: "Avenir LT Std", sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.5;
+    text-transform: none;
+    font-size: 1.6rem;
+    box-sizing: inherit;
+    scroll-margin-top: inherit;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: calc(50% - 8px);
+    margin: 8px 0;
 }
