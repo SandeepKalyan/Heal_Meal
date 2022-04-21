@@ -1,12 +1,38 @@
+import React, { useState } from 'react'
+import { Navigate } from 'react-router-dom'
 import './style.css'
 import logo from "./logo.png"
 
 function Register() {
 
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [redirect, setRedirect] = useState(false);
+    async function Submit(e) {
+        e.preventDefault();
+
+        const response = await fetch('http://localhost:8000/api/register', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                name,
+                email,
+                password
+            })
+        });
+
+        setRedirect(true);
+        const content = await response.json();
+        console.log(content);
+    }
+
+    if (redirect)
+        return <Navigate to="/login" />
 
     return (
         <div>
-            <form className='registerform'>
+            <form className='registerform' onSubmit={Submit}>
                 <h1 >
                     Create Account
                 </h1>
@@ -21,7 +47,9 @@ function Register() {
                         </label>
 
                         <span className="fninput">
-                            <input type="text" />
+                            <input type="text" required
+                                onChange={e => { setName(e.target.value) }}
+                            />
                         </span>
                     </div>
 
@@ -31,7 +59,9 @@ function Register() {
                         </label>
 
                         <span className="lninput">
-                            <input type="text" />
+                            <input type="text"
+
+                            />
                         </span>
                     </div>
 
@@ -42,7 +72,9 @@ function Register() {
                         </label>
 
                         <span className="eminput">
-                            <input type="text" />
+                            <input type="text" required
+                                onChange={e => { setEmail(e.target.value) }}
+                            />
                         </span>
                     </div>
 
@@ -54,7 +86,9 @@ function Register() {
                         </label>
 
                         <span className="pinput">
-                            <input type="text" />
+                            <input type="text" required
+                                onChange={e => { setPassword(e.target.value) }}
+                            />
                         </span>
                     </div>
 
@@ -71,12 +105,6 @@ function Register() {
 
                 </div>
                 <div className='createaccount'>
-                    <label className="terms">
-                        <input className="termscheckbox" type="checkbox" />
-                        I have read and accepted the terms and agreements
-
-
-                    </label>
 
                     <button className="registerbutton" type="submit">
                         <span className="register label">
