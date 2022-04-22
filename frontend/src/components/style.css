@@ -9,6 +9,10 @@
     box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .2);
 }
 
+.navbuttons {
+    display: inline-flex;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -60,8 +64,10 @@ li a:hover {
 }
 
 .footer {
-    margin-top: 10%;
-    padding: 0%;
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+    height: 60px;
 
 }
 

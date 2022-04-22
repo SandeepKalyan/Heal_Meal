@@ -3,7 +3,7 @@ import logo from "./logo.png"
 import { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 
-function SignIn() {
+function SignIn(props) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [flag, setFlag] = useState(0);
@@ -20,6 +20,8 @@ function SignIn() {
                 password
             })
         })
+        const content = await response.json();
+        props.setName(content.name);
 
         if (response.status == 200)
             setFlag(2);
