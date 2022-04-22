@@ -7,7 +7,7 @@ function Footer() {
         <div className='footer'>
             <nav >
                 <img src={logo} className='logo' />
-                <a width='3%'>© Copyright 2022 - All Rights Reserved</a>
+                <span>© Copyright 2022 - All Rights Reserved</span>
             </nav>
         </div>
     )
