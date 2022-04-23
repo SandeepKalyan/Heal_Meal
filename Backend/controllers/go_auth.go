@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/golang-jwt/jwt"
 	"github.com/gofiber/fiber/v2"
+	"github.com/golang-jwt/jwt"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -21,10 +21,14 @@ func Register(c *fiber.Ctx) error {
 	password, _ := bcrypt.GenerateFromPassword([]byte(data["password"]),14)
 
 	user:= models.User{
-		Name: data["name"],
+		FirstName: data["firstname"],
+		LastName: data["lastname"],
 		Email: data["email"],
 		Password: password,
 	}
+	
+	user.Cart = []models.Product{}
+
 	database.DB.Create(&user)
 
 	return c.JSON(user)
