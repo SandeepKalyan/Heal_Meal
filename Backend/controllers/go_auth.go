@@ -3,6 +3,8 @@ package controllers
 import (
 	"backend/database"
 	"backend/models"
+	"encoding/json"
+	"log"
 	"strconv"
 	"time"
 
@@ -26,9 +28,12 @@ func Register(c *fiber.Ctx) error {
 		Email: data["email"],
 		Password: password,
 	}
-	
-	user.Cart = []models.Product{}
-
+	var cart []models.Product 
+	cart_json,err := json.Marshal(cart)
+	if err!=nil{
+		log.Fatal("Cannot jsonify!")
+	}
+	user.Cart = cart_json
 	database.DB.Create(&user)
 
 	return c.JSON(user)
