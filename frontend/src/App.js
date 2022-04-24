@@ -19,7 +19,7 @@ function App() {
           credentials: "include"
         });
         const content = await response.json();
-        setName(content.name);
+        setName(content.firstname);
       }
     )();
   });

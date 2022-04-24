@@ -25,7 +25,6 @@ function SignIn(props) {
 
         if (response.status == 200)
             setFlag(2);
-
         else setFlag(1);
     }
 

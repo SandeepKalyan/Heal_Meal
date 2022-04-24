@@ -15,7 +15,7 @@ function Head(props) {
           credentials: "include"
         });
         const content = await response.json();
-        setlocal(content.name);
+        setlocal(content.firstname);
       }
     )();
   });
