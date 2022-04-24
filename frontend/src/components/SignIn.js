@@ -23,15 +23,15 @@ function SignIn(props) {
         const content = await response.json();
         props.setName(content.name);
 
-        if (response.status == 200)
+        if (response.status === 200)
             setFlag(2);
         else setFlag(1);
     }
 
-    if (flag == 2)
+    if (flag === 2)
         return <Navigate to='/home' />
 
-    else if (flag == 1)
+    else if (flag === 1)
         return (<div>
             <form className="form-signin" onSubmit={Submit}>
                 <img className="mb-4" src={logo} alt="" width="100" height="100" />

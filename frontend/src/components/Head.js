@@ -48,7 +48,7 @@ function Head(props) {
     );
 
   //console.log(local);
-  if (local != "") return (
+  if (local !== "") return (
     <nav className='navstart'>
 
       <img src={logo} className='logo' alt='Heal Meal logo'></img>
