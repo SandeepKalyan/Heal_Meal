@@ -14,6 +14,6 @@ func Connect(){
 		panic("couldn't connect")
 	}
 	DB = connection
-	connection.AutoMigrate(&models.User{})
+	connection.AutoMigrate(&models.User{}, &models.Product{})
 
 }
