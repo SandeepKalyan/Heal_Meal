@@ -1,3 +1,5 @@
+import Apple from "./apple.jpeg"
+
 function Card(props) {
 
     const cardList = [];
@@ -20,9 +22,10 @@ function Card(props) {
     for (let index = 0; index < props.json.length; index++) {
 
         cardList.push(<div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
             <div className="card-body">
                 <p className="card-text">{props.json[index].name}</p>
+                <img src={Apple} width="20%" />
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                         <button type="button" className="btn btn-sm btn-outline-secondary" onClick={() => addToCart(props.json[index].name)}>Add to cart</button>

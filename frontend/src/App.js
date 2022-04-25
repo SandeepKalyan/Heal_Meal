@@ -24,7 +24,7 @@ function App() {
       }
     )();
   });
-  console.log(name)
+
 
   return (
     <div className="App">

@@ -9,6 +9,7 @@ import { Navigate } from "react-router-dom";
 
 function CartPage() {
     const [json, setJson] = useState();
+    const [checkout, setCheckout] = useState(false);
     useEffect(() => {
         (
             async () => {
@@ -33,7 +34,7 @@ function CartPage() {
         const content = await response.json()
 
         alert(content["message"]);
-        <Navigate to="/orders" />
+        setCheckout(true);
 
     }
 
@@ -48,20 +49,14 @@ function CartPage() {
 
         alert(content["message"]);
     }
+    if (checkout)
+        return <Navigate to="/orders" />
 
     return (
         <div>
             <CartHead />
             <h2>Check out below items in your cart</h2>
             <CartCards json={json} />
-
-            <button
-                type="button"
-                onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = '/home';
-                }}
-            > Click here</button>
             <button type="button" className="btn btn-sm btn-outline-secondary" onClick={() => CheckOut()}>Check Out Cart</button>
             <button type="button" className="btn btn-sm btn-outline-secondary" onClick={() => ClearCart()}>Clear Cart</button>
             <Footer />

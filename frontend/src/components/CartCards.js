@@ -1,5 +1,6 @@
 import React from "react"
 
+
 function CartCards(props) {
     const cardList = [];
     var total_price = 0;
