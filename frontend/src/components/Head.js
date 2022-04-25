@@ -2,10 +2,11 @@ import './style.css'
 import logo from './logo.png'
 import { Link } from "react-router-dom"
 import { useEffect, useState } from 'react';
+import { Navigate } from 'react-router-dom';
 
 function Head(props) {
   const [local, setlocal] = useState(props.name);
-
+  const [status, setStatus] = useState(0);
   useEffect(() => {
     (
       async () => {
@@ -14,6 +15,7 @@ function Head(props) {
           headers: { "Content": "application/json" },
           credentials: "include"
         });
+        setStatus(response.status)
         const content = await response.json();
         setlocal(content.firstname);
       }
@@ -32,7 +34,7 @@ function Head(props) {
   }
 
 
-  console.log(local);
+
   if (local === undefined)
     return (
       <nav className='navstart'>
@@ -54,6 +56,7 @@ function Head(props) {
       <img src={logo} className='logo' alt='Heal Meal logo'></img>
 
       <ul>
+        <li><Link to="/cart" className="active">Cart</Link></li>
         <li><Link to="/login" className="active" onClick={Logout}>Log out</Link></li>
       </ul>
     </nav>

@@ -6,6 +6,7 @@ import RegisterPage from "./pages/RegisterPage"
 import HomePage from "./pages/HomePage"
 import BasePage from "./pages/BasePage"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import CartPage from './pages/CartPage';
 
 function App() {
   const [name, setName] = useState("");
@@ -26,13 +27,11 @@ function App() {
 
   return (
     <div className="App">
-
       <Router>
-
         <Routes>
+          <Route exact path="/cart" element={<CartPage />} />
           <Route exact path="/" element={<BasePage />} />
           <Route exact path="/home" element={<HomePage name={name} />} />
-
           <Route exact path="/register" element={<RegisterPage />} />
           <Route exact path="/login" element={<SignInPage setName={setName} />} />
         </Routes>
