@@ -56,6 +56,7 @@ function Head(props) {
 
       <ul>
         <li><Link to="/cart" className="active">Cart</Link></li>
+        <li><Link to="/orders" className="active">Orders</Link></li>
         <li><Link to="/login" className="active" onClick={Logout}>Log out</Link></li>
       </ul>
     </nav>

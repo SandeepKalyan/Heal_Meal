@@ -42,7 +42,9 @@ func Register(c *fiber.Ctx) error {
 	user.Orders = order_json
 	database.DB.Create(&user)
 
-	return c.JSON(user)
+	return c.JSON(fiber.Map{
+		"message" : "Successfully Registered",
+	})
 }
 
 func Login(c *fiber.Ctx) error {
