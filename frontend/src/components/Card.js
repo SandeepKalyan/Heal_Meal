@@ -3,7 +3,6 @@ function Card(props) {
     const cardList = [];
 
     async function addToCart(name) {
-        console.log(name)
         const response = await fetch(
             "http://localhost:8000/api/addtocart",
             {

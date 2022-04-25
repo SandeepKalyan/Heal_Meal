@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage"
 import BasePage from "./pages/BasePage"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import CartPage from './pages/CartPage';
+import OrdersPage from "./pages/OrdersPage"
 
 function App() {
   const [name, setName] = useState("");
@@ -29,6 +30,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
+          <Route exact path="/orders" element={<OrdersPage />} />
           <Route exact path="/cart" element={<CartPage />} />
           <Route exact path="/" element={<BasePage />} />
           <Route exact path="/home" element={<HomePage name={name} />} />

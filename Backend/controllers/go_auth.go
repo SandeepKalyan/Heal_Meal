@@ -28,12 +28,18 @@ func Register(c *fiber.Ctx) error {
 		Email: data["email"],
 		Password: password,
 	}
-	var cart []models.Product 
+	cart := make([]models.Product,0)
 	cart_json,err := json.Marshal(cart)
 	if err!=nil{
 		log.Fatal("Cannot jsonify!")
 	}
 	user.Cart = cart_json
+	order := make([][]models.Product,0)
+	order_json,err := json.Marshal(order)
+	if err!=nil{
+		log.Fatal("Cannot jsonify!")
+	}
+	user.Orders = order_json
 	database.DB.Create(&user)
 
 	return c.JSON(user)

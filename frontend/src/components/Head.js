@@ -49,7 +49,6 @@ function Head(props) {
       </nav>
     );
 
-  //console.log(local);
   if (local !== "") return (
     <nav className='navstart'>
 

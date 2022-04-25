@@ -9,4 +9,5 @@ type User struct{
 	Email string `json:"email" gorm:"unique"`
 	Password []byte `json:"password"`
 	Cart datatypes.JSON
+	Orders datatypes.JSON
 }
