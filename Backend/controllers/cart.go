@@ -131,7 +131,10 @@ func BuyFromCart(c *fiber.Ctx) error {
 
 	user.Orders = orders_json
 	user.Cart = cart_json
-
+	if len(user.Cart) ==0 {
+		c.Status(fiber.StatusInternalServerError)
+		return errors.New("empty cart")
+	}
 
 	database.DB.Save(&user)
 
