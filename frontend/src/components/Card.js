@@ -20,12 +20,12 @@ function Card(props) {
     }
 
     for (let index = 0; index < props.json.length; index++) {
-
+        var str = "http://localhost:3000/Images/" + String(props.json[index].url)
         cardList.push(<div className="card shadow-sm">
 
             <div className="card-body">
                 <p className="card-text">{props.json[index].name}</p>
-                <img src={Apple} width="20%" />
+                <img src={str} width="30%" />
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                         <button type="button" className="btn btn-sm btn-outline-secondary" onClick={() => addToCart(props.json[index].name)}>Add to cart</button>

@@ -22,11 +22,12 @@ function Orders(props) {
         for (let j = 0; j < arr.length; j++) {
             cardList.push(<h3>OrderNo: {j + 1}</h3>)
             for (let index = 0; index < arr[String(j)].length; index++) {
-
+                var str = "http://localhost:3000/Images/" + String(arr[String(j)][String(index)].url)
 
                 cardList.push(<div className="card shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
                     <div className="card-body">
+                        <img src={str} width="30%" />
                         <p className="card-text">{arr[String(j)][String(index)].name}</p>
                         <div className="d-flex justify-content-between align-items-center">
                             <small className="text-muted">{arr[String(j)][String(index)].price} $</small>
