@@ -4,6 +4,7 @@ import (
 	"backend/database"
 	"backend/models"
 	"encoding/json"
+	"errors"
 	"log"
 	"strconv"
 	"time"
@@ -19,7 +20,10 @@ func Register(c *fiber.Ctx) error {
 	var data map[string]string
 
 	if err := c.BodyParser(&data); err != nil {return err}
-
+	if data["email"] == "" {
+		c.Status(fiber.StatusInternalServerError)
+		return errors.New("empty email")
+	}
 	password, _ := bcrypt.GenerateFromPassword([]byte(data["password"]),14)
 
 	user:= models.User{
@@ -32,14 +36,22 @@ func Register(c *fiber.Ctx) error {
 	cart_json,err := json.Marshal(cart)
 	if err!=nil{
 		log.Fatal("Cannot jsonify!")
+		return err
 	}
 	user.Cart = cart_json
 	order := make([][]models.Product,0)
 	order_json,err := json.Marshal(order)
 	if err!=nil{
 		log.Fatal("Cannot jsonify!")
+		return err
 	}
 	user.Orders = order_json
+	var userexist models.User
+	database.DB.Where("email = ?", data["email"]).First(&userexist)
+	if  userexist.Email == data["email"]{
+		c.Status(fiber.StatusInternalServerError)
+		return errors.New("already registered with email")
+	}
 	database.DB.Create(&user)
 
 	return c.JSON(fiber.Map{
@@ -52,6 +64,17 @@ func Login(c *fiber.Ctx) error {
 	
 	// Bind the input JSON to the data map 
 	if err := c.BodyParser(&data); err != nil {return err}
+
+	if data["email"] ==""{
+		c.Status(fiber.StatusInternalServerError)
+		return errors.New("empty email")
+	}
+
+	if data["password"] ==""{
+		c.Status(fiber.StatusInternalServerError)
+		return errors.New("empty password")
+	}
+
 	var user models.User
 
 

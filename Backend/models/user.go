@@ -6,7 +6,7 @@ type User struct{
 	ID uint `json:"id"`
 	FirstName string `json:"firstname"`
 	LastName string `json:"lastname"`
-	Email string `json:"email" gorm:"unique"`
+	Email string `json:"email" gorm:"unique;not null"`
 	Password []byte `json:"password"`
 	Cart datatypes.JSON
 	Orders datatypes.JSON
