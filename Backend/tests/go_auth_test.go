@@ -59,7 +59,7 @@ payload2 := strings.NewReader(`{
 		t.Run(tt.name, func(t *testing.T) {
 			client := &http.Client {
 			}
-			req, err := http.NewRequest(method, url, payload)
+			req, err := http.NewRequest(method, url, tt.args)
 		  
 			if err != nil {
 			  fmt.Println(err)
@@ -136,14 +136,14 @@ payload3 := strings.NewReader(`{
 		{
 			"Incorrect password Test",
 			payload3,
-			500,
+			400,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			client := &http.Client {
 			}
-			req, err := http.NewRequest(method, url, payload)
+			req, err := http.NewRequest(method, url, tt.args)
 		  
 			if err != nil {
 			  fmt.Println(err)
@@ -244,6 +244,59 @@ methodnew := "POST"
 
 			fmt.Println(string(body))
 
+			if res.StatusCode != tt.statuscode {
+				t.Fail()
+			}
+		})
+	}
+}
+
+func TestUser(t *testing.T) {
+
+	url := "http://127.0.0.1:8000/api/user"
+	method := "GET"
+	payload := strings.NewReader(`{
+    "email":"a@aasbvsf",
+    "password":"asdbvfd"
+}`)
+
+
+	tests := []struct {
+		name    string
+		statuscode int
+	}{
+		{
+			"Valid user retrival",
+			200,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			client := &http.Client {
+			}
+			req, err := http.NewRequest(method, url, payload)
+			
+			if err != nil {
+			  fmt.Println(err)
+			  return
+			}
+			req.Header.Add("Content-Type", "application/json")
+			req.Header.Add("Cookie", "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTEwMzcwOTQsImlzcyI6IjM5In0.IydfAsROtBMGVeVFnvIhM8j7Ug6XeCqEEt7punRJASI")
+			
+			res, err := client.Do(req)
+			if err != nil {
+			  fmt.Println(err)
+			  return
+			}
+			defer res.Body.Close()
+			
+			body , err := ioutil.ReadAll(res.Body)
+			if err != nil {
+			  fmt.Println(err)
+			  return
+			}
+			
+			fmt.Println(string(body))
 			if res.StatusCode != tt.statuscode {
 				t.Fail()
 			}

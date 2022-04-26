@@ -4,6 +4,7 @@ import (
 	"backend/database"
 	"backend/models"
 	"encoding/json"
+	"errors"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
@@ -34,6 +35,10 @@ func AddToCart(c *fiber.Ctx) error {
 	var data map[string]string
 	if err := c.BodyParser(&data); err != nil {return err}
 
+	if(data["name"] == "") {
+		c.Status(fiber.StatusInternalServerError)
+		return errors.New("empty product")
+	}
 	var prod models.Product
 	database.DB.Table("products").Where("name = ?", data["name"]).First(&prod)
 
