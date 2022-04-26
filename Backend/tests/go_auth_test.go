@@ -108,6 +108,10 @@ payload2 := strings.NewReader(`{
     "email":"a@aasbvsf",
     "password":""
 }`)
+payload3 := strings.NewReader(`{
+    "email":"a@aasbvsf",
+    "password":"asdbvfda"
+}`)
 
 	tests := []struct {
 		name    string
@@ -115,18 +119,23 @@ payload2 := strings.NewReader(`{
 		statuscode int
 	}{
 		{
-			"Valid Registration Test",
+			"Valid login",
 			payload,
 			200,
 		},
 		{
-			"Empty Registration Test",
+			"Empty Email login",
 			payload1,
 			500,
 		},
 		{
-			"Overridden Registration Test",
+			"Empty password login",
 			payload2,
+			500,
+		},
+		{
+			"Incorrect password Test",
+			payload3,
 			500,
 		},
 	}
@@ -135,6 +144,84 @@ payload2 := strings.NewReader(`{
 			client := &http.Client {
 			}
 			req, err := http.NewRequest(method, url, payload)
+		  
+			if err != nil {
+			  fmt.Println(err)
+			  return
+			}
+			req.Header.Add("Content-Type", "application/json")
+		  
+			res, err := client.Do(req)
+			if err != nil {
+			  fmt.Println(err)
+			  return
+			}
+			defer res.Body.Close()
+		  
+			body , err := ioutil.ReadAll(res.Body)
+			if err != nil {
+			  fmt.Println(err)
+			  return
+			}
+
+			fmt.Println(string(body))
+
+			if res.StatusCode != tt.statuscode {
+				t.Fail()
+			}
+		})
+	}
+}
+
+func TestLogout(t *testing.T) {
+
+	url := "http://127.0.0.1:8000/api/login"
+	method := "POST"
+	payload := strings.NewReader(`{
+    "email":"a@aasbvsf",
+    "password":"asdbvfd"
+}`)
+client := &http.Client {
+}
+req, err := http.NewRequest(method, url, payload)
+
+if err != nil {
+  fmt.Println(err)
+  return
+}
+req.Header.Add("Content-Type", "application/json")
+
+res, err := client.Do(req)
+if err != nil {
+  fmt.Println(err)
+  return
+}
+defer res.Body.Close()
+
+body , err := ioutil.ReadAll(res.Body)
+if err != nil {
+  fmt.Println(err)
+  return
+}
+
+fmt.Println(string(body))
+urlnew := "http://127.0.0.1:8000/api/logout"
+methodnew := "POST"
+
+	tests := []struct {
+		name    string
+		statuscode int
+	}{
+		{
+			"Valid logout",
+			200,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			client := &http.Client {
+			}
+			req, err := http.NewRequest(methodnew, urlnew, nil)
 		  
 			if err != nil {
 			  fmt.Println(err)
