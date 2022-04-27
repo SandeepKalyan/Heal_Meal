@@ -1,7 +1,7 @@
 # Heal_Meal
 Website for healing food online.
 
-##Description
+## Description
 
 Heal Meal is an application that serves as a platform for users to register to the website, browse the menu and select the food items you want to order, view or checkout your cart and retrieve previous orders for your application.
 
