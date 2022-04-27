@@ -25,7 +25,7 @@ export default function HomePage(props) {
     });
 
     return (
-        <div className="signinpage">
+        <div className="signinpage" data-testid="home" >
             <Head name={props.name} />
             <h2 className="menu">Menu</h2>
             <Card json={json} />

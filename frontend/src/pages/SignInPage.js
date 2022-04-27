@@ -6,7 +6,7 @@ import "./pages.css"
 
 export default function SignInPage(props) {
     return (
-        <div className="signinpage">
+        <div className="signinpage" data-testid="signin">
             <Head name={""} />
             <SignIn setName={props.setName} />
             <Footer />

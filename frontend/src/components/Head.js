@@ -42,7 +42,7 @@ function Head(props) {
         <img src={logo} className='logo' alt='Heal Meal logo'></img>
 
         <ul>
-          <li><Link to="/login" className="active" >Login</Link></li>
+          <li><Link to="/" className="active" >Login</Link></li>
           <li><Link to="/register" >Register</Link></li>
 
         </ul>
@@ -57,7 +57,7 @@ function Head(props) {
       <ul>
         <li><Link to="/cart" className="active">Cart</Link></li>
         <li><Link to="/orders" className="active">Orders</Link></li>
-        <li><Link to="/login" className="active" onClick={Logout}>Log out</Link></li>
+        <li><Link to="/" className="active" onClick={Logout}>Log out</Link></li>
       </ul>
     </nav>
   );

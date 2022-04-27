@@ -20,7 +20,7 @@ export default function OrdersPage() {
         )();
     });
     return (
-        <div>
+        <div data-testid="orders" >
             <CartHead />
             <Orders json={json} />
         </div>

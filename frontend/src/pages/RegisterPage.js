@@ -7,7 +7,7 @@ import "./pages.css"
 export default function RegisterPage() {
 
     return (
-        <div className="signinpage">
+        <div className="signinpage" data-testid="register">
             <Head name={""} />
             <Register />
             <Footer />

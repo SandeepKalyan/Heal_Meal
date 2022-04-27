@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import SignInPage from "./pages/SignInPage"
 import RegisterPage from "./pages/RegisterPage"
 import HomePage from "./pages/HomePage"
-import BasePage from "./pages/BasePage"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import CartPage from './pages/CartPage';
 import OrdersPage from "./pages/OrdersPage"
@@ -27,15 +26,15 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" data-testid="app">
       <Router>
         <Routes>
           <Route exact path="/orders" element={<OrdersPage />} />
           <Route exact path="/cart" element={<CartPage />} />
-          <Route exact path="/" element={<BasePage />} />
+
           <Route exact path="/home" element={<HomePage name={name} />} />
           <Route exact path="/register" element={<RegisterPage />} />
-          <Route exact path="/login" element={<SignInPage setName={setName} />} />
+          <Route exact path="/" element={<SignInPage setName={setName} />} />
         </Routes>
       </Router>
     </div>

@@ -53,7 +53,7 @@ function CartPage() {
         return <Navigate to="/orders" />
 
     return (
-        <div>
+        <div data-testid="cart">
             <CartHead />
             <h2>Check out below items in your cart</h2>
             <CartCards json={json} />

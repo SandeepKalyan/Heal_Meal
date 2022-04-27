@@ -19,7 +19,7 @@ function CartHead(props) {
             <img src={logo} className='logo' alt='Heal Meal logo'></img>
             <ul>
                 <li><Link to="/home" className="active">Menu</Link></li>
-                <li><Link to="/login" className="active" onClick={Logout}>Log out</Link></li>
+                <li><Link to="/" className="active" onClick={Logout}>Log out</Link></li>
             </ul>
         </nav>
     )
