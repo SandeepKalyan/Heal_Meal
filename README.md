@@ -24,6 +24,6 @@ https://github.com/SandeepKalyan/Heal_Meal/blob/main/Sprint4.md
 
 ## Team Members
 
-Name: Sandeep Kalyan Sunkara
-UFID: 6338-6755
-Role: Full Stack Development (Backend & Frontend)
+* Name: Sandeep Kalyan Sunkara
+* UFID: 6338-6755
+* Role: Full Stack Development (Backend & Frontend)
