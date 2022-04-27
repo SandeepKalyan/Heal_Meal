@@ -21,7 +21,7 @@ function Card(props) {
 
     for (let index = 0; index < props.json.length; index++) {
         var str = "http://localhost:3000/Images/" + String(props.json[index].url)
-        cardList.push(<div className="card shadow-sm">
+        cardList.push(<div className="card shadow-sm" key={index}>
 
             <div className="card-body">
                 <p className="card-text">{props.json[index].name}</p>
@@ -40,10 +40,10 @@ function Card(props) {
     }
 
     return (
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
+        <div className="album py-5 bg-light">
+            <div className="container">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div className="col">
                         {cardList}
                     </div>
                 </div>

@@ -50,7 +50,7 @@ function SignIn(props) {
                     <label for="floatingPassword">Password</label>
                 </div>
 
-                <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                <button className="w-100 btn btn-lg btn-primary" type="submit" id="login">Login</button>
                 <span className='authtext'>Not Authenticated</span>
                 <p className="mt-5 mb-3 text-muted">&copy; 2022</p>
             </form>
@@ -75,7 +75,7 @@ function SignIn(props) {
                     <label for="floatingPassword">Password</label>
                 </div>
 
-                <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                <button className="w-100 btn btn-lg btn-primary" type="submit" id="login">Login</button>
 
                 <p className="mt-5 mb-3 text-muted">&copy; 2022</p>
             </form>

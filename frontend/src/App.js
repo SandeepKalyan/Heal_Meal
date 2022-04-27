@@ -22,7 +22,7 @@ function App() {
         setName(content.firstname);
       }
     )();
-  });
+  }, [name]);
 
 
   return (

@@ -14,7 +14,9 @@ export default function OrdersPage() {
                     headers: { "Content": "application/json" },
                     credentials: "include"
                 });
+                console.log(response)
                 const content = await response.json();
+                console.log(content)
                 setJson(content)
             }
         )();

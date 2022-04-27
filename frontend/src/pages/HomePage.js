@@ -22,7 +22,7 @@ export default function HomePage(props) {
                 setJson(content);
             }
         )();
-    });
+    }, [json]);
 
     return (
         <div className="signinpage" data-testid="home" >
